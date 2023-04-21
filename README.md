@@ -11,7 +11,6 @@ The following is a list of changes made to PoCo for this project.
 
 -  Added class GrayPolicy to package edu.cseusf.poco.policy
 -  Added class SpamPolicy to package edu.cseusf.poco.poco_demo.polymerPolicies
--  In class PolicyVisitor, in package edu.cseusf.poco.policy.staticAnalysis, changed line 47 to: 
-  `if (subClassName.equals("Policy") || subClassName.equals("GrayPolicy")) {`
+-  In class PolicyVisitor, in package edu.cseusf.poco.policy.staticAnalysis, changed line 47 to: `if (subClassName.equals("Policy") || subClassName.equals("GrayPolicy")) {`
 -  In class PolicyVisitor, in package edu.cseusf.poco.policy.staticAnalysis.visitClasses, changed line 33 to: `if(superName.equals("edu/cseusf/poco/policy/Policy") || superName.equals("edu/cseusf/poco/policy/GrayPolicy")) {`
 -  In class PolicyScanner, in package, edu.cseusf.poco.policy.staticAnalysis.scanPolicies, changed line 76 to: `if ((subClassName.equals("Policy") || subClassName.equals("GrayPolicy")) && _declaredPolicies.contains(_className)) {`
